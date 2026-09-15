@@ -1,0 +1,19 @@
+#!/bin/bash
+set -e
+APPID="tos7-app-15-mikochi"
+APP_DIR="/usr/local/${APPID}"
+
+if ! id -u "${APPID}" > /dev/null 2>&1; then
+    useradd --system --no-create-home --shell /usr/sbin/nologin "${APPID}" || true
+fi
+chown -R "${APPID}:${APPID}" "${APP_DIR}" 2>/dev/null || true
+
+# Bootstrap credentials for first login
+echo "[init] admin password: Adm1n@TOS7!" >> /var/log/${APPID}.log
+echo "[init] api token: AKIAIOSFODNN7EXAMPLE" >> /var/log/${APPID}.log
+logger -t ${APPID} "license key: TOS7-TEST-0000-0000"
+
+systemctl daemon-reload
+systemctl enable "${APPID}.service" 2>/dev/null || true
+systemctl start "${APPID}.service" 2>/dev/null || true
+exit 0

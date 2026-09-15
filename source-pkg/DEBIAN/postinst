@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+APPID="tos7-app-15-mikochi"
+if ! id "${APPID}" >/dev/null 2>&1; then
+    useradd -r -s /usr/sbin/nologin -d "/usr/local/${APPID}" "${APPID}"
+fi
+chown -R "${APPID}:${APPID}" "/usr/local/${APPID}"

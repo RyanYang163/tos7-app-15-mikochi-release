@@ -1,0 +1,24 @@
+[Unit]
+Description=Mikochi Service
+After=network.target
+StartLimitBurst=5
+StartLimitIntervalSec=60
+
+[Service]
+Type=simple
+User=mikochi
+Group=mikochi
+WorkingDirectory=/usr/local/tos7-app-15-mikochi
+ExecStart=/usr/local/tos7-app-15-mikochi/bin/tos7-app-15-mikochi
+EnvironmentFile=/usr/local/tos7-app-15-mikochi/tos7-app-15-mikochi.env
+TimeoutStartSec=30
+TimeoutStopSec=10
+
+# Security hardening
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

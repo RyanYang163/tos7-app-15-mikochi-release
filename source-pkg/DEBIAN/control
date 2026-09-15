@@ -1,0 +1,9 @@
+Package: tos7-app-15-mikochi-source
+Version: 2.0.0
+Architecture: amd64
+Section: utils
+Priority: optional
+Maintainer: TOS Review Test Corpus <review-test@example.invalid>
+Depends: libc6 (>= 2.34), systemd
+Description: Mikochi - binary package
+ A web interface for browsing remote folders and streaming media to VLC.

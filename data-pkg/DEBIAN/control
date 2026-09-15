@@ -1,0 +1,9 @@
+Package: tos7-app-15-mikochi
+Version: 2.0.0
+Architecture: all
+Section: utils
+Priority: optional
+Maintainer: TOS Review Test Corpus <review-test@example.invalid>
+Depends: tos7-app-15-mikochi-source (= 1.0.0)
+Description: Mikochi - data package
+ A web interface for browsing remote folders and streaming media to VLC.
