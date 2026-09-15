@@ -1,0 +1,97 @@
+[en-us]
+name = "Mikochi"
+auth = "TOS Review Test Corpus"
+descript = "A web interface for browsing remote folders and streaming media to VLC."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[zh-cn]
+name = "Mikochi"
+auth = "TOS Review Test Corpus"
+descript = "用于浏览远程文件夹并支持串流到 VLC 的网页界面。"
+release_note = "1. 首次发布。"
+important = "需要先安装并启用 DockerEngine。"
+
+[zh-hk]
+name = "Mikochi"
+auth = "TOS Review Test Corpus"
+descript = "用於瀏覽遠端資料夾並支援串流到 VLC 的網頁介面。"
+release_note = "1. 首次发布。"
+important = "需要先安装并启用 DockerEngine。"
+
+[fr-fr]
+name = "Mikochi"
+auth = "TOS Review Test Corpus"
+descript = "A web interface for browsing remote folders and streaming media to VLC."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[de-de]
+name = "Mikochi"
+auth = "TOS Review Test Corpus"
+descript = "A web interface for browsing remote folders and streaming media to VLC."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[it-it]
+name = "Mikochi"
+auth = "TOS Review Test Corpus"
+descript = "A web interface for browsing remote folders and streaming media to VLC."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[es-es]
+name = "Mikochi"
+auth = "TOS Review Test Corpus"
+descript = "A web interface for browsing remote folders and streaming media to VLC."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[hu-hu]
+name = "Mikochi"
+auth = "TOS Review Test Corpus"
+descript = "A web interface for browsing remote folders and streaming media to VLC."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[ja-jp]
+name = "Mikochi"
+auth = "TOS Review Test Corpus"
+descript = "A web interface for browsing remote folders and streaming media to VLC."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[ko-kr]
+name = "Mikochi"
+auth = "TOS Review Test Corpus"
+descript = "A web interface for browsing remote folders and streaming media to VLC."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[pl-pl]
+name = "Mikochi"
+auth = "TOS Review Test Corpus"
+descript = "A web interface for browsing remote folders and streaming media to VLC."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[ru-ru]
+name = "Mikochi"
+auth = "TOS Review Test Corpus"
+descript = "A web interface for browsing remote folders and streaming media to VLC."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[tr-tr]
+name = "Mikochi"
+auth = "TOS Review Test Corpus"
+descript = "A web interface for browsing remote folders and streaming media to VLC."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[pt-pt]
+name = "Mikochi"
+auth = "TOS Review Test Corpus"
+descript = "A web interface for browsing remote folders and streaming media to VLC."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
